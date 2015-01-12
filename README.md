@@ -2,7 +2,8 @@
 This was an technical assignment that I had to create to prove my expertise in Symfony2
 
 Due to time constraints and working 9-6 I've kept the project simple. The best thing that this project should show is my Object Oriented Skills.
-Installation:
+
+### Installation: ###
 Run: git clone https://github.com/sohrabkhan/SymfonyXmlReader.git
 Then: php composer.phar update
 
