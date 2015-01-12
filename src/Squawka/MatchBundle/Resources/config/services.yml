@@ -1,0 +1,11 @@
+services:
+#    match.example:
+#        class: Squawka\MatchBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+    squakwa.process:
+        class: Squawka\MatchBundle\HelperServices\ProcessService
+
+    squakwa.search:
+        class: Squawka\MatchBundle\HelperServices\SearchService
+
+

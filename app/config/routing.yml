@@ -1,0 +1,3 @@
+match:
+    resource: "@MatchBundle/Resources/config/routing.yml"
+    prefix:   /api/v1/

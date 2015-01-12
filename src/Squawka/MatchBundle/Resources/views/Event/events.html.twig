@@ -1,0 +1,7 @@
+{% extends 'MatchBundle::layout.html.twig' %}
+
+{% block body %}
+   {% for event in event_list %}
+     { {{ event.eventDate|date('d-m-y') }} } - { {{ event.homeTeam }} }{ {{ event.homeScore }} } - { {{ event.awayScore }} }{ {{ event.awayTeam }} }<br>
+   {% endfor %}
+{% endblock %}
