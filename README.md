@@ -4,12 +4,21 @@ This was an technical assignment that I had to create to prove my expertise in S
 Due to time constraints and working 9-6 I've kept the project simple. The best thing that this project should show is my Object Oriented Skills.
 
 ### Installation: ###
-Run: git clone https://github.com/sohrabkhan/SymfonyXmlReader.git
-Then: php composer.phar update
+Run:
+git clone https://sohrab9@bitbucket.org/sohrab9/squawka.git
 
-To get all the events: http://localhost/SquawkaTech/web/api/v1/events
-To get one event if given team names: http://localhost/SquawkaTech/web/api/v1/team=Chelsea
-To get the total no of goals that want to see for a particular team: http://localhost/SquawkaTech/web/api/v1/team=Chelsea
+Then:
+php composer.phar update
+
+
+To get all the events:
+http://localhost/SquawkaTech/web/api/v1/events
+
+To get one event if given team names:
+http://localhost/SquawkaTech/web/api/v1/team=Chelsea
+
+To get the total no of goals that want to see for a particular team:
+http://localhost/SquawkaTech/web/api/v1/team=Chelsea
 
 ### Framework ###
 The project has been done in Symfony 2.0
